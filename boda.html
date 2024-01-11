@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BODA SOCIAL MEDIA</title>
+  </head>
+  <style>
+    body {
+    }
+    .parent {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .parent-two {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0px 20px;
+    }
+    @media (max-width: 991px) {
+      .parent {
+        flex-direction: column;
+        gap: 40px;
+      }
+      .parent-two {
+        flex-basis: 50%;
+      }
+    }
+    p {
+      color: black;
+      font-weight: bold;
+      font-size: 22px;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      max-width: 100%;
+      object-fit: cover;
+    }
+    p {
+    }
+  </style>
+  <body>
+    <div class="parent">
+      <div class="parent-two">
+        <p>instagram</p>
+        <img src="insta.jpeg" alt="" />
+      </div>
+      <div class="parent-two">
+        <p>facebook</p>
+        <img src="face.jpeg" alt="" />
+      </div>
+      <div class="parent-two">
+        <p>whatsapp</p>
+        <img src="what.jpeg" alt="" />
+      </div>
+      <div class="parent-two">
+        <p>tiktok</p>
+        <img src="tik.jpeg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
